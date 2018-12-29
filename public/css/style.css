@@ -21,10 +21,10 @@ form.example input[type=text] {
 
 form.example button {
   float: left;
-  width: 5%;
+  width: 10%;
   padding: 10px;
   background: #F8F8F8;
-  color: white;
+  color: black;
   font-size: 17px;
   border: 1px solid grey;
   border-left: none;
