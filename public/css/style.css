@@ -1,4 +1,4 @@
-body { background: #111116; }
+body { background: #111116; overflow-x: hidden;}
 header { margin-top: 30px; }
 header a { color: white; text-decoration: none; }
 header p { color: white; font-size: 15pt; text-align: center;}
