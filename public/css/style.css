@@ -19,14 +19,14 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 #example2 {
-  border: 3px solid blue;
   padding: 10px;
   border-radius: 15px 50px;
   position: fixed;
-  top:5vw;
-  left:5vw;
+  top:2vw;
+  left:2vw;
   color:white;
   font-size:17pt;
+  background-color: #ff0000;
 }
 mark.red {
     color:#ff0000;
