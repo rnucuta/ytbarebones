@@ -7,7 +7,7 @@ var maxVideos = 5;
       kind: 'youtube#videoListResponse',
       maxResults: maxVideos,
       regionCode: 'IN',
-      key: 'Your_KEY_Here'},
+      key: 'AIzaSyC1U3lIrDYfK9slvPCFlbEnAx3IsmMNN10'},
       function(data){
         var output;
         $.each(data.items, function(i, item){
