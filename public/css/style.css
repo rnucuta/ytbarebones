@@ -18,7 +18,16 @@ form.example input[type=text] {
   width: 85%;
   background: #f1f1f1;
 }
-
+#example2 {
+  border: 3px solid blue;
+  padding: 10px;
+  border-radius: 15px 50px;
+  position: fixed;
+  top:5vw;
+  left:5vw;
+  color:white;
+  font-size:17pt;
+}
 mark.red {
     color:#ff0000;
     background: none;
