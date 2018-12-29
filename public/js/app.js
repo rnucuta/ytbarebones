@@ -17,6 +17,7 @@ $(function() {
             maxResults: 5,
             order: "relevance",
        }); 
+       console.log(request);
        // execute the request
        request.execute(function(response) {
           var results = response.result;
