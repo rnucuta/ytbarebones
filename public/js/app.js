@@ -1,3 +1,7 @@
+function openr(){
+  window.location.href = 'http://www.ytbarebones.herokuapp.com/trending.html';
+}
+
 function tplawesome(e,t){res=e;for(var n=0;n<t.length;n++){res=res.replace(/\{\{(.*?)\}\}/g,function(e,r){return t[n][r]})}return res}
 
 $(function() {
