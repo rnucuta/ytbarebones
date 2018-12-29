@@ -1,7 +1,7 @@
-
 function tplawesome(e,t){res=e;for(var n=0;n<t.length;n++){res=res.replace(/\{\{(.*?)\}\}/g,function(e,r){return t[n][r]})}return res}
 
 $(function() {
+    console.log("run");
     $("form").on("submit", function(e) {
        e.preventDefault();
        // prepare the request
@@ -34,7 +34,5 @@ function resetVideoHeight() {
 
 function init() {
     gapi.client.setApiKey("AIzaSyC1U3lIrDYfK9slvPCFlbEnAx3IsmMNN10");
-    gapi.client.load("youtube", "v3", function() {
-        // yt api is ready
-    });
+    gapi.client.load("youtube", "v3", function() {console.log("ran");});
 }
