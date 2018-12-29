@@ -7,8 +7,8 @@ $(function() {
        // prepare the request
        var request = gapi.client.youtube.videos.list({
             part: "contentDetails",
-            chart="mostPopular",
-            regionCode="IN",
+            chart: "mostPopular",
+            regionCode: "IN",
             maxResults: 5,
             order: "relevance",
        }); 
