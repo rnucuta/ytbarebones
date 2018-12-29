@@ -5,6 +5,37 @@ header p { color: white; font-size: 15pt; text-align: center;}
 header a:hover { text-decoration: none; }
 form { margin-top: 20px; }
 form, #results { padding: 0 20px; }
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .item { margin-bottom: 25px; }
 .w100 { width: 100%; }
 

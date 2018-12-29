@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -16,10 +17,14 @@
         </header>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <form action="#">
+                <!-- <form action="#">
                     <p><input type="text" id="search" placeholder="Search" autocomplete="off" class="form-control" /></p>
                     <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>
-                </form>
+                </form> -->
+                <form action="#">
+  <input type="text" id="search" autocomplete="off" placeholder="Search.." name="search">
+  <button type="submit" value="Search"><i class="fa fa-search"></i></button>
+</form>
                 <div id="results"></div>
             </div>
         </div>
