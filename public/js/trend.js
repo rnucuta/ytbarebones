@@ -2,7 +2,7 @@ function tplawesome(e,t){res=e;for(var n=0;n<t.length;n++){res=res.replace(/\{\{
 
 $(function() {
     console.log("run");
-    $("form").on("submit", function(e) {
+    $(window).on("load", function(e) {console.log("runny");
        e.preventDefault();
        // prepare the request
        var request = gapi.client.youtube.videos.list({
