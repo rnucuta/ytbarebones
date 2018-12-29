@@ -5,6 +5,8 @@ header p { color: white; font-size: 15pt; text-align: center;}
 header a:hover { text-decoration: none; }
 form { margin-top: 20px; }
 form, #results { padding: 0 20px; }
+.item { margin-bottom: 25px; }
+.w100 { width: 100%; }
 form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -29,16 +31,6 @@ form.example button {
 form.example button:hover {
   background: #0b7dda;
 }
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.item { margin-bottom: 25px; }
-.w100 { width: 100%; }
-
 .btn-primary { background: #4FA881; border-color: #4FA881; }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus { background: #782b2b;  border-color: #952b2b; }
 /*#375980*/
