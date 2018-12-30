@@ -6,9 +6,9 @@ $(function() {
        e.preventDefault();
        // prepare the request
        var request = gapi.client.youtube.search.list({
-            part: "contentDetails",
-            chart: "mostPopular",
-            regionCode: "IN",
+            part: "snippet",
+            type: "video",
+            q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
             maxResults: 5,
             order: "relevance",
        }); 
