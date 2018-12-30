@@ -5,10 +5,10 @@ $(function() {
     $(window).on("load", function(e) {console.log("runny");
        e.preventDefault();
        // prepare the request
-       var request = gapi.client.youtube.search.list({
-            part: "snippet",
-            type: "video",
-            q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
+       var request = gapi.client.youtube.videos.list({
+            part: "contentDetails",
+            chart: "mostPopular",
+            regionCode: "IN",
             maxResults: 5,
             order: "relevance",
        }); 
