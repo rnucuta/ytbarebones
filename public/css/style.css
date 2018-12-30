@@ -10,6 +10,7 @@ form, #results { padding: 0 20px; }
 
 
 button1 .comment { display: none; }
+button1:hover {cursor: pointer;}
 button1:hover .replies { display: none; }
 button1:hover .comment { display: inline; }
 
