@@ -5,7 +5,7 @@ $(function() {
     $(window).on("load", function(e) {console.log("runny");
        e.preventDefault();
        // prepare the request
-       var request = gapi.client.youtube.Videos.list({
+       var request = gapi.client.youtube.videos.list({
             part: "contentDetails",
             chart: "mostPopular",
             regionCode: "IN",
