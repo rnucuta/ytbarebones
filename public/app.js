@@ -7,7 +7,7 @@ var maxVideos = 5;
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
       maxResults: maxVideos,
-      regionCode: 'IN',
+      regionCode: 'US',
       key: 'AIzaSyC1U3lIrDYfK9slvPCFlbEnAx3IsmMNN10'},
       function(data){
         var output;
@@ -20,6 +20,7 @@ var maxVideos = 5;
                 videoDate = item.snippet.publishedAt;
                 Catagoryid = item.snippet.categoryId;
                 cID = item.snippet.channelId;
+                vidId = item.id;
           output = '<div class="maindiv"><div>' +
                         '<a data-fancybox-type="iframe" class="fancyboxIframe" href="watch.php?v=' + vidId + '" target="_blank" ><img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
                         '</div>' +
