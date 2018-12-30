@@ -7,7 +7,7 @@ var maxVideos = 5;
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
       maxResults: maxVideos,
-      regionCode: 'US',
+      regionCode: encodeURIComponent($("#countries").val()),
       key: 'AIzaSyC1U3lIrDYfK9slvPCFlbEnAx3IsmMNN10'},
       function(data){
         var output;

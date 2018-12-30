@@ -15,18 +15,33 @@
             <h1 class="w100 text-center"><a href="index.html"><mark class="red">YouTube</mark> Barebones</a></h1>
             <p>For use on low-powered systems, i.e., Raspberry Pi's</p>
         </header>
+        <select id="countries">
+            <option selected="selected" value="US">USA</option>
+            <option value="BR">Brazil</option>
+            <option value="RU">Russia</option>
+            <option value="JP">Japan</option>
+            <option value="IN">India</option>
+            <option value="GB">UK</option>
+            <option value="DE">Germany</option>
+            <option value="FR">France</option>
+            <option value="MX">Mexico</option>
+            <option value="TR">Turkey</option>
+            <option value="AR">Argentina</option>
+            <option value="PL">Poland</option>
+            <option value="CA">Canada</option>
+            <option value="VN">Vietnam</option>
+            <option value="ES">Spain</option>
+            <option value="RO">Romania</option>
+        </select>
         <h2 style="text-align:center;"><strong>Trending</strong></h2>
         <br>
-        <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-        <div id="results"></div>
-        </div>
-        </div>
+        <div id="catagoryname"><h1>Trending</h1></div>
+            <ul id="trending"></ul>
         
         
         <!-- scripts -->
         <script src="https://code.jquery.com/jquery.min.js"></script>
         <script src="https://apis.google.com/js/client.js?onload=init"></script>
-        <script src="js/trend.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
