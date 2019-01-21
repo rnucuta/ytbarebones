@@ -17,7 +17,7 @@ var maxVideos = 5;
       kind: 'youtube#videoListResponse',
       maxResults: maxVideos,
       regionCode: encodeURIComponent($("#countries").val()),
-      key: 'AIzaSyC1U3lIrDYfK9slvPCFlbEnAx3IsmMNN10'},
+      key: 'YOUR KEY HERE'},
       function(data){
         var output;
         $.each(data.items, function(i, item){
